@@ -2,3 +2,4 @@ my name is pradeep fageria and i am sick
 in so much pain
 my name is pradeep fageria and i am sick and testing 
 something
+changed in name to check weather i only have to do git add name file not test_name file
