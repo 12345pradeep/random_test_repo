@@ -13,6 +13,10 @@ jobs:
       - shell: bash
         run: |
           expr 3 + 7 > math-homework.txt
+      - name: check
+        run: |
+          echo "this is for test artifact" >> artifact.txt
+
       - name: Upload math result for job 1
         uses: actions/upload-artifact@v3
         with:
@@ -52,3 +56,5 @@ jobs:
         run: |
           value=`cat math-homework.txt`
           echo The result is $value
+          
+
